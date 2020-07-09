@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Mitr|Patua+One|Roboto");
+
+:root{
+	--font-site:'Heebo', sans-serif;
+	--font-size-header:40px;
+	--font-size-header-mobile:35px;
+	--font-color:rgb(24, 24, 24);
+	--font-news:#fffffd;
+	--font-objects:'Roboto', sans-serif;
+	--object-color:rgb(24, 24, 24);
+	--object-color-2:rgb(225, 239, 242);
+	--object-button-color:rgb(24,24,24,0.7);
+	--button-bg-green-color: #2EE59D;
+	--water-mark: rgb(46,229,157,0.5);
+	--placeholder-color: #999;
+	
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center; /* !!! */
+    font-family:var(--font-objects);
+}
+
+td{
+	padding:20px;
+}
+
+th{
+	font-size:18px;
+}
+
+.container,.container-ws,.table-container,.title,.logo{
+	position:relative;
+	float:left;
+}
+
+.container{
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	widht:100%;
+  	height:100%;
+}
+
+.container-ws{
+	width:80%;
+	height:80%;
+}
+
+.logo{
+	float:right;
+	width:200px;
+}
+
+.title{
+	width:100%;
+	text-align:left;
+}
+
+.title h2{
+	font-size:32px;
+	letter-spacing:2px;
+}
+
+.ws-table{
+	margin:20px;
+	font-size:14px;
+}
+
+.ws-table tr{
+	
+}
+
+.ws-table td{
+	border:solid 2px #666;
+}
+
+.label{
+	background:#666;
+	color:#FFFFFF;
+	height:45px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border:solid 2px #666;
+	letter-spacing:1px;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
